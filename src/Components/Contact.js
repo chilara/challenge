@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "../Asset/logo.png";
-
+import instagram from "../Asset/instagram.png";
+import twitter from "../Asset/twitter.png";
+import facebook from "../Asset/facebook.png";
 const Contact = () => {
   return (
     <section
@@ -8,6 +10,7 @@ const Contact = () => {
         height: "528px",
         backgroundColor: "#F8F8F8",
         padding: "50px 50px",
+        marginTop: "250px",
       }}
     >
       <div
@@ -69,15 +72,39 @@ const Contact = () => {
       <div
         style={{
           display: "flex",
-          width: "20%",
+          width: "10%",
           marginTop: 90,
+          marginLeft: "6%",
           justifyContent: "space-between",
         }}
       >
-        <div>Instagram</div>
-        <div>Facebook</div>
-        <div>Twitter</div>
+        <img
+          src={instagram}
+          alt={instagram}
+          style={{ width: "33px", height: "33px" }}
+        />
+        <img
+          src={facebook}
+          alt={facebook}
+          style={{ width: "33px", height: "33px" }}
+        />
+        <img
+          src={twitter}
+          alt={twitter}
+          style={{ width: "33px", height: "33px" }}
+        />
       </div>
+      <hr
+        style={{
+          border: "1px solid #E1E1E1",
+          marginTop: "60px",
+          marginTop: "20px",
+        }}
+      />
+      <h6 style={{ color: "#ADADAD", marginTop: "120px" }}>
+        Copyright 2018. <span style={{ color: "#FF7008" }}>Gravii</span>.{" "}
+        <span style={{ color: "#343434" }}>ng.</span> All rights reserved
+      </h6>
     </section>
   );
 };

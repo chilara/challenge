@@ -20,6 +20,7 @@ const About = () => {
         justifyContent: "center",
         alignItems: "center",
         height: "380px",
+        marginTop: "100px",
       }}
     >
       <div
@@ -42,11 +43,12 @@ const About = () => {
         <img src={samsung} alt={samsung} className="images" />
         <img src={elispe} alt={elispe} className="images" />
       </div>
-      <h2 style={{ color: "#FF7008" }}>Features</h2>
+      <h2 style={{ color: "#FF7008", marginTop: "100px" }}>Features</h2>
       <h1
         style={{
           color: "#000000",
           fontSize: "45px",
+          marginBottom: "90px",
           fontWeight: "700",
         }}
       >
