@@ -76,7 +76,7 @@ const About = () => {
             Get curated content and design inspiration delivered straight to
             your inbox. Learn more
           </p>
-          <h2 className="learnMore">Learn More</h2>
+          <h2 className="learnMoreD">Learn More</h2>
         </div>
         <div className="box">
           <img
@@ -101,7 +101,7 @@ const About = () => {
             Get curated content and design inspiration delivered straight to
             your inbox. Learn more
           </p>
-          <h2 className="learnMore">Learn More</h2>
+          <h2 className="learnMoreD">Learn More</h2>
         </div>
       </div>
     </section>

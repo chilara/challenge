@@ -96,5 +96,10 @@
   cursor: pointer;
 }
 
+.learnMoreD {
+  margin-top: 45px;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 375px) {
 }
