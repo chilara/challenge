@@ -5,8 +5,12 @@ const Hero = () => {
   return (
     <>
       <section>
-        <hr style={{ border: "0.5px solid #9F9F9F", marginBottom: "20%" }} />
-
+        <hr
+          style={{
+            border: "0.5px solid #9F9F9F",
+            marginBottom: "20%",
+          }}
+        />
         <div className="hero">
           <div style={{}}>
             <img

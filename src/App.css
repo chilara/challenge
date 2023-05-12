@@ -26,7 +26,7 @@
 
 .navbar {
   display: flex;
-  padding: 8px;
+  padding: 30px;
   align-items: center;
   justify-content: space-between;
 }
@@ -36,6 +36,7 @@
   width: 20%;
   justify-content: space-around;
   align-content: space-between;
+  margin-right: 5%;
 }
 
 .hero {
