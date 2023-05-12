@@ -5,36 +5,23 @@ import twitter from "../Asset/twitter.png";
 import facebook from "../Asset/facebook.png";
 const Contact = () => {
   return (
-    <section
-      style={{
-        height: "528px",
-        backgroundColor: "#F8F8F8",
-        padding: "80px 50px",
-        marginTop: "250px",
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-around",
-          alignItems: "center",
-        }}
-      >
+    <section className="parentContact">
+      <div className="childContact">
         <img src={logo} alt={logo} className="images" />
-        <div style={{ height: "120px" }}>
+        <div className="footer1">
           <h2 style={{ fontWeight: "700", fontSize: "18px" }}>Get Started</h2>
           <p style={{ color: "#797979" }}>Documentations</p>
           <p style={{ color: "#797979" }}>Pricing</p>
           <p style={{ color: "#797979" }}>Tutorials</p>
           <p style={{ color: "#797979" }}>Guides</p>
         </div>
-        <div style={{ height: "120px" }}>
+        <div className="footer1">
           <h2 style={{ fontWeight: "700", fontSize: "18px" }}>Platform</h2>
           <p style={{ color: "#797979" }}>Available on IOS</p>
           <p style={{ color: "#797979" }}>Available on Android</p>
           <p style={{ color: "#797979" }}>Available on Web</p>
         </div>
-        <div style={{ height: "120px" }}>
+        <div className="footer1">
           <h2 style={{ fontWeight: "700", fontSize: "18px" }}>NewsLetter</h2>
           <p style={{ width: "400px", color: "#797979" }}>
             Get curated content and design inspiration delivered straight to
@@ -64,6 +51,7 @@ const Contact = () => {
                 backgroundColor: "#FF7008",
                 color: "white",
                 padding: "10px",
+                cursor: "pointer",
               }}
             >
               Submit

@@ -101,5 +101,35 @@
   cursor: pointer;
 }
 
+.parentContact {
+  height: 528px;
+  background-color: #f8f8f8;
+  padding: 80px 50px;
+  margin-top: 250px;
+}
+
+.childContact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer1 {
+  height: 120px;
+  color: "#797979";
+}
+
 @media screen and (max-width: 375px) {
+  .headerImage {
+    background-image: url("../public/headerImg.png");
+    /* background-attachment: fixed; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    height: 1207px;
+    width: 350px;
+  }
+
+  .navbar {
+    display: none;
+  }
 }
