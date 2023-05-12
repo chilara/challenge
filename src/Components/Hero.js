@@ -6,8 +6,10 @@ const Hero = () => {
     <section>
       <hr
         style={{
-          border: "0.5px solid #9F9F9F",
+          border: "1px solid rgba(159, 159, 159, 0.33)",
           marginBottom: "20%",
+          marginLeft: "5%",
+          marginRight: "5%",
         }}
       />
       <div className="hero1">

@@ -9,7 +9,7 @@ const Contact = () => {
       style={{
         height: "528px",
         backgroundColor: "#F8F8F8",
-        padding: "50px 50px",
+        padding: "80px 50px",
         marginTop: "250px",
       }}
     >
