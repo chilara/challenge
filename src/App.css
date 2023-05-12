@@ -66,3 +66,32 @@
   width: 100%;
   color: #f8f8f8;
 }
+
+.DWEIM {
+  color: #000000;
+  font-size: 45px;
+  margin-bottom: 90px;
+  font-weight: 700;
+}
+
+.parentBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.box {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.learnMore {
+  color: #ff7008;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 45px;
+  cursor: pointer;
+}

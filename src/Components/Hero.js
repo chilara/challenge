@@ -35,6 +35,7 @@ const Hero = () => {
               color: "#FF7008",
               textDecoration: "underline",
               marginTop: "20px",
+              cursor: "pointer",
             }}
           >
             Get started

@@ -21,25 +21,27 @@ const Contact = () => {
         }}
       >
         <img src={logo} alt={logo} className="images" />
-        <div>
+        <div style={{ height: "120px" }}>
           <h2 style={{ fontWeight: "700", fontSize: "18px" }}>Get Started</h2>
           <p style={{ color: "#797979" }}>Documentations</p>
           <p style={{ color: "#797979" }}>Pricing</p>
           <p style={{ color: "#797979" }}>Tutorials</p>
           <p style={{ color: "#797979" }}>Guides</p>
         </div>
-        <div>
+        <div style={{ height: "120px" }}>
           <h2 style={{ fontWeight: "700", fontSize: "18px" }}>Platform</h2>
           <p style={{ color: "#797979" }}>Available on IOS</p>
           <p style={{ color: "#797979" }}>Available on Android</p>
           <p style={{ color: "#797979" }}>Available on Web</p>
-          <p style={{ color: "#797979" }}>Guides</p>
         </div>
-        <div>
+        <div style={{ height: "120px" }}>
           <h2 style={{ fontWeight: "700", fontSize: "18px" }}>NewsLetter</h2>
           <p style={{ width: "400px", color: "#797979" }}>
             Get curated content and design inspiration delivered straight to
-            your inbox. <span style={{ color: "#FF7008" }}>Learn More</span>
+            your inbox.{" "}
+            <span style={{ color: "#FF7008", cursor: "pointer" }}>
+              Learn More
+            </span>
           </p>
           <div
             style={{

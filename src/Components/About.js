@@ -26,32 +26,9 @@ const About = () => {
         <img src={elispe} alt={elispe} className="images" />
       </div>
       <h2 style={{ color: "#FF7008", marginTop: "100px" }}>Features</h2>
-      <h1
-        style={{
-          color: "#000000",
-          fontSize: "45px",
-          marginBottom: "90px",
-          fontWeight: "700",
-        }}
-      >
-        Designed without everyone in mind
-      </h1>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          width: "90%",
-        }}
-      >
-        <div
-          style={{
-            display: "flex",
-            width: "25%",
-            flexDirection: "column",
-            alignItems: "center",
-          }}
-        >
+      <h1 className="DWEIM">Designed without everyone in mind</h1>
+      <div className="parentBox">
+        <div className="box">
           <img
             src={pencil}
             alt={pencil}
@@ -74,25 +51,9 @@ const About = () => {
             Get curated content and design inspiration delivered straight to
             your inbox. Learn more
           </p>
-          <h2
-            style={{
-              color: "#FF7008",
-              textDecoration: "underline",
-              textAlign: "center",
-              marginTop: 45,
-            }}
-          >
-            Learn More
-          </h2>
+          <h2 className="learnMore">Learn More</h2>
         </div>
-        <div
-          style={{
-            display: "flex",
-            width: "25%",
-            flexDirection: "column",
-            alignItems: "center",
-          }}
-        >
+        <div className="box">
           <img
             src={vector}
             alt={vector}
@@ -115,25 +76,9 @@ const About = () => {
             Get curated content and design inspiration delivered straight to
             your inbox. Learn more
           </p>
-          <h2
-            style={{
-              color: "#FF7008",
-              textDecoration: "underline",
-              textAlign: "center",
-              marginTop: 45,
-            }}
-          >
-            Learn More
-          </h2>
+          <h2 className="learnMore">Learn More</h2>
         </div>
-        <div
-          style={{
-            display: "flex",
-            width: "25%",
-            flexDirection: "column",
-            alignItems: "center",
-          }}
-        >
+        <div className="box">
           <img
             src={fingerprint}
             alt={fingerprint}
@@ -156,16 +101,7 @@ const About = () => {
             Get curated content and design inspiration delivered straight to
             your inbox. Learn more
           </p>
-          <h2
-            style={{
-              color: "#FF7008",
-              textDecoration: "underline",
-              textAlign: "center",
-              marginTop: 45,
-            }}
-          >
-            Learn More
-          </h2>
+          <h2 className="learnMore">Learn More</h2>
         </div>
       </div>
     </section>
