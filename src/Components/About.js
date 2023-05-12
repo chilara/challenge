@@ -18,7 +18,7 @@ const About = () => {
         style={{
           display: "flex",
           justifyContent: "space-around",
-          height: "136px",
+          height: "156px",
           alignItems: "center",
           width: "100%",
           color: "#F8F8F8",
@@ -69,10 +69,17 @@ const About = () => {
               height: "50px",
             }}
           />
-          <p style={{ fontWeight: "700", fontSize: "18px" }}>
+          <p style={{ fontWeight: "700", fontSize: "18px", marginTop: "20px" }}>
             Design with users in mind
           </p>
-          <p style={{ textAlign: "center", width: "300px", color: "#797979" }}>
+          <p
+            style={{
+              textAlign: "center",
+              width: "300px",
+              color: "#797979",
+              marginTop: "4]20px",
+            }}
+          >
             Get curated content and design inspiration delivered straight to
             your inbox. Learn more
           </p>
@@ -103,10 +110,17 @@ const About = () => {
               height: "50px",
             }}
           />
-          <p style={{ fontWeight: "700", fontSize: "18px" }}>
+          <p style={{ fontWeight: "700", fontSize: "18px", marginTop: "20px" }}>
             Design with users in mind
           </p>
-          <p style={{ textAlign: "center", width: "300px", color: "#797979" }}>
+          <p
+            style={{
+              textAlign: "center",
+              width: "300px",
+              color: "#797979",
+              marginTop: "20px",
+            }}
+          >
             Get curated content and design inspiration delivered straight to
             your inbox. Learn more
           </p>
@@ -137,10 +151,17 @@ const About = () => {
               height: "50px",
             }}
           />
-          <p style={{ fontWeight: "700", fontSize: "18px" }}>
+          <p style={{ fontWeight: "700", fontSize: "18px", marginTop: "20px" }}>
             Design with users in mind
           </p>
-          <p style={{ textAlign: "center", width: "300px", color: "#797979" }}>
+          <p
+            style={{
+              textAlign: "center",
+              width: "300px",
+              color: "#797979",
+              marginTop: "20px",
+            }}
+          >
             Get curated content and design inspiration delivered straight to
             your inbox. Learn more
           </p>
