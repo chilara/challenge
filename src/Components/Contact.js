@@ -57,7 +57,7 @@ const Contact = () => {
                 width: "80%",
                 border: "1px solid #BBBBBB",
               }}
-              placeholder="Email"
+              placeholder="Your email"
             />
             <div
               style={{
@@ -99,11 +99,19 @@ const Contact = () => {
       <hr
         style={{
           border: "1px solid #E1E1E1",
-          marginTop: "60px",
-          marginTop: "20px",
+          marginTop: "40px",
+          marginLeft: "5%",
+          marginRight: "5%",
         }}
       />
-      <h6 style={{ color: "#ADADAD", marginTop: "120px" }}>
+      <h6
+        style={{
+          color: "#ADADAD",
+          marginTop: "120px",
+          marginLeft: "5%",
+          marginRight: "5%",
+        }}
+      >
         Copyright 2018. <span style={{ color: "#FF7008" }}>Gravii</span>.{" "}
         <span style={{ color: "#343434" }}>ng.</span> All rights reserved
       </h6>
