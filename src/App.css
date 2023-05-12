@@ -12,7 +12,6 @@
   width: 114px;
   height: 48px;
   mix-blend-mode: normal;
-  margin-bottom: 70px;
 }
 
 .navbar {
@@ -63,7 +62,7 @@
   justify-content: space-around;
   height: 156px;
   align-items: center;
-  width: 100%;
+  width: 95%;
   color: #f8f8f8;
 }
 

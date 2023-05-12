@@ -14,8 +14,8 @@ import fingerprint from "../Asset/fingerprint.png";
 const About = () => {
   return (
     <section className="aboutMe">
-      <div className="aboutMeChild">
-        <p>Trusted by</p>
+      <div className="aboutMeChild" style={{ position: "relative" }}>
+        <p style={{ color: "#575757" }}>Trusted by</p>
         <img src={skype} alt={skype} className="images" />
         <img src={visa} alt={visa} className="images" />
         <img src={cola} alt={cola} className="images" />
@@ -23,7 +23,16 @@ const About = () => {
         <img src={puma} alt={puma} className="images" />
         <img src={adidas} alt={adidas} className="images" />
         <img src={samsung} alt={samsung} className="images" />
-        <img src={elispe} alt={elispe} className="images" />
+        <img
+          src={elispe}
+          alt={elispe}
+          style={{
+            height: "200px",
+            position: "absolute",
+            right: "-30px",
+            top: "20px",
+          }}
+        />
       </div>
       <h2 style={{ color: "#FF7008", marginTop: "100px" }}>Features</h2>
       <h1 className="DWEIM">Designed without everyone in mind</h1>
