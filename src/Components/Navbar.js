@@ -5,26 +5,15 @@ import logo from "../Asset/logo.png";
 
 const Navbar = () => {
   return (
-    <section
-      style={{
-        display: "flex",
-        padding: "8px",
-        alignItems: "center",
-        justifyContent: "space-between",
-      }}
-    >
+    <section className="navbar">
       <img src={logo} alt={logo} />
-      <nav
-        style={{
-          display: "flex",
-          width: "20%",
-          justifyContent: "space-around",
-          alignContent: "space-between",
-        }}
-      >
-        <a>Product</a>
-        <a>About Us</a>
-        <a>Contact</a>
+      <nav className="navChild">
+        <div>
+          <a style={{ color: "#FF7008", cursor: "pointer" }}>Product</a>
+          <hr style={{ color: "#FF7008", border: "1px solid #FF7008" }} />
+        </div>
+        <a style={{ cursor: "pointer" }}>About Us</a>
+        <a style={{ cursor: "pointer" }}>Contact</a>
       </nav>
     </section>
   );

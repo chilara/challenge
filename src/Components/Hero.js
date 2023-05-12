@@ -1,21 +1,13 @@
 import React from "react";
-
 import headphones from "../Asset/headphones.png";
 
 const Hero = () => {
   return (
     <>
-      <section style={{}}>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "flex-end",
-            flexDirection: "column",
+      <section>
+        <hr style={{ border: "0.5px solid #9F9F9F", marginBottom: "20%" }} />
 
-            alignItems: "flex-end",
-            marginRight: "40px",
-          }}
-        >
+        <div className="hero">
           <div style={{}}>
             <img
               src={headphones}
@@ -23,14 +15,8 @@ const Hero = () => {
               style={{ width: "37px", height: "37px" }}
             />
           </div>
-          <div style={{ width: "480px", height: "186px" }}>
-            <h1
-              style={{
-                color: "#000000",
-                fontSize: "45px",
-                fontWeight: "700",
-              }}
-            >
+          <div className="heroChild">
+            <h1 className="guranteed">
               Guranteed to give you the best experience in
               <br />
               <span style={{ color: "#FF7008" }}>banking</span>

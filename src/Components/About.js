@@ -13,16 +13,7 @@ import fingerprint from "../Asset/fingerprint.png";
 
 const About = () => {
   return (
-    <section
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "380px",
-        marginTop: "100px",
-      }}
-    >
+    <section className="aboutMe">
       <div
         style={{
           display: "flex",

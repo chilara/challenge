@@ -23,3 +23,45 @@
   mix-blend-mode: normal;
   /* opacity: 0.3; */
 }
+
+.navbar {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navChild {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+  align-content: space-between;
+}
+
+.hero {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 40px;
+}
+
+.heroChild {
+  width: 480px;
+  height: 186px;
+}
+
+.guranteed {
+  color: #000000;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 380px;
+  margin-top: 100px;
+}
