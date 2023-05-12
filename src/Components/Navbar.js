@@ -9,7 +9,9 @@ const Navbar = () => {
       <img src={logo} alt={logo} style={{ marginLeft: "5%" }} />
       <nav className="navChild">
         <div>
-          <a style={{ color: "#FF7008", cursor: "pointer" }}>Product</a>
+          <a href="#" style={{ color: "#FF7008", cursor: "pointer" }}>
+            Product
+          </a>
           <hr
             style={{
               color: "#FF7008",
@@ -18,8 +20,12 @@ const Navbar = () => {
             }}
           />
         </div>
-        <a style={{ cursor: "pointer" }}>About Us</a>
-        <a style={{ cursor: "pointer" }}>Contact</a>
+        <a href="#" style={{ cursor: "pointer" }}>
+          About Us
+        </a>
+        <a href="#" style={{ cursor: "pointer" }}>
+          Contact
+        </a>
       </nav>
     </section>
   );
