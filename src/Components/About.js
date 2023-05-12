@@ -94,8 +94,8 @@ const About = () => {
           }}
         >
           <img
-            src={pencil}
-            alt={pencil}
+            src={vector}
+            alt={vector}
             style={{
               width: "50px",
               height: "50px",
@@ -135,8 +135,8 @@ const About = () => {
           }}
         >
           <img
-            src={pencil}
-            alt={pencil}
+            src={fingerprint}
+            alt={fingerprint}
             style={{
               width: "50px",
               height: "50px",
