@@ -14,16 +14,7 @@ import fingerprint from "../Asset/fingerprint.png";
 const About = () => {
   return (
     <section className="aboutMe">
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-around",
-          height: "156px",
-          alignItems: "center",
-          width: "100%",
-          color: "#F8F8F8",
-        }}
-      >
+      <div className="aboutMeChild">
         <p>Trusted by</p>
         <img src={skype} alt={skype} className="images" />
         <img src={visa} alt={visa} className="images" />
@@ -53,47 +44,6 @@ const About = () => {
           width: "90%",
         }}
       >
-        <div
-          style={{
-            display: "flex",
-            width: "25%",
-            flexDirection: "column",
-            alignItems: "center",
-          }}
-        >
-          <img
-            src={pencil}
-            alt={pencil}
-            style={{
-              width: "50px",
-              height: "50px",
-            }}
-          />
-          <p style={{ fontWeight: "700", fontSize: "18px", marginTop: "20px" }}>
-            Design with users in mind
-          </p>
-          <p
-            style={{
-              textAlign: "center",
-              width: "300px",
-              color: "#797979",
-              marginTop: "4]20px",
-            }}
-          >
-            Get curated content and design inspiration delivered straight to
-            your inbox. Learn more
-          </p>
-          <h2
-            style={{
-              color: "#FF7008",
-              textDecoration: "underline",
-              textAlign: "center",
-              marginTop: 45,
-            }}
-          >
-            Learn More
-          </h2>
-        </div>
         <div
           style={{
             display: "flex",
@@ -152,7 +102,48 @@ const About = () => {
             }}
           />
           <p style={{ fontWeight: "700", fontSize: "18px", marginTop: "20px" }}>
-            Design with users in mind
+            Scalability
+          </p>
+          <p
+            style={{
+              textAlign: "center",
+              width: "300px",
+              color: "#797979",
+              marginTop: "20px",
+            }}
+          >
+            Get curated content and design inspiration delivered straight to
+            your inbox. Learn more
+          </p>
+          <h2
+            style={{
+              color: "#FF7008",
+              textDecoration: "underline",
+              textAlign: "center",
+              marginTop: 45,
+            }}
+          >
+            Learn More
+          </h2>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            width: "25%",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <img
+            src={pencil}
+            alt={pencil}
+            style={{
+              width: "50px",
+              height: "50px",
+            }}
+          />
+          <p style={{ fontWeight: "700", fontSize: "18px", marginTop: "20px" }}>
+            Security
           </p>
           <p
             style={{

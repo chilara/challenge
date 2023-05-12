@@ -57,3 +57,12 @@
   height: 380px;
   margin-top: 140px;
 }
+
+.aboutMeChild {
+  display: flex;
+  justify-content: space-around;
+  height: 156px;
+  align-items: center;
+  width: 100%;
+  color: #f8f8f8;
+}
